@@ -10,4 +10,4 @@
     <body id="blog" <?php body_class(); ?>>
         <?php wp_body_open(); ?>
         <?php get_template_part('template-parts/template-part', 'topnav'); ?>
-        <div class="page-area">	
+        <div class="page__area">	

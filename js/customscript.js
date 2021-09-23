@@ -38,12 +38,12 @@ jQuery( document ).ready( function ( $ ) {
 
 jQuery( window ).on( 'load resize', function () {
     var navHeight = jQuery( '#site-navigation' ).height();
-    jQuery( '.page-area' ).css( 'padding-top', navHeight + 'px' );
+    jQuery( '.page__area' ).css( 'padding-top', navHeight + 'px' );
     
     // Mobile menu height fix
     if ( jQuery( window ).width() < 768 ) {
         var vindowHeight = jQuery( window ).height();
-        jQuery( '.menu-container' ).css( 'max-height', vindowHeight - navHeight + 'px' );
-        jQuery( '.menu-container' ).css( 'padding-bottom', '60px' );
+        jQuery( '.page__menu-container' ).css( 'max-height', vindowHeight - navHeight + 'px' );
+        jQuery( '.page__menu-container' ).css( 'padding-bottom', '60px' );
     }
 } );

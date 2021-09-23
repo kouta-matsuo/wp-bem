@@ -1,22 +1,121 @@
-/*
-
-
-Theme Name: bulk-child
-Template: bulk
-
-*/
-
-/* The bootstrap.css file is auto-enqueued in functions.php */
-
-/* WordPress Core */
-
-.home__main-menu {
-    position: relative;
+a, a:hover, a:active, a:focus {
+  text-decoration: none;
 }
-.navbar-abc {
-	position: fixed;
-	width: 100%;
-	z-index: 9999;
-	top: 0;
-	background-color: #000 !important; 
+
+.page__main-menu {
+  position: relative;
 }
+.page__nav {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+.page__nav-container {
+  margin: 0;
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.page__site-text {
+  display: none;
+}
+@media (max-width: 767px) {
+  .page__menu-container {
+    width: 70%;
+    position: absolute;
+    left: 0;
+    height: 100vh;
+    transform: translate3d(-100%, 0, 0);
+    overflow-y: auto;
+    overflow-x: auto;
+    background-color: #fff;
+    top: 100%;
+    background-color: #FFFFCC;
+  }
+}
+@media (max-width: 767px) {
+  .openNav .page__menu-container {
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.5s ease;
+  }
+}
+@media (min-width: 768px) {
+  .page__menu-lists {
+    display: flex;
+    margin: 0;
+  }
+}
+.page__menu-lists {
+  padding: 0;
+}
+.page__menu-lists li {
+  list-style: none;
+}
+@media (max-width: 767px) {
+  .page__menu-lists li {
+    padding: 10px 0 10px 20px;
+  }
+}
+@media (min-width: 768px) {
+  .page__menu-lists li {
+    padding-right: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .page__menu-lists .active {
+    background-color: #EEEEEE;
+  }
+}
+.page__area-header {
+  display: none;
+}
+.page__bulk-container {
+  background-color: #fff;
+  width: 90%;
+  margin: 120px auto 0;
+  padding: 20px 20px 0;
+  text-align: center;
+}
+.page__area__container-heading {
+  font-size: 40px;
+  padding-top: 50px;
+  display: inline-block;
+  border-bottom: 3px dotted #add9e0;
+}
+.page__area__container__block {
+  padding-top: 30px;
+}
+@media (max-width: 767px) {
+  .page__area__container__plofile-block figure {
+    padding-bottom: 20px;
+  }
+}
+.page__area__container__plofile-block {
+  text-align: justify;
+}
+.page__area__container__skil-block-img figcaption {
+  text-align: center;
+}
+.page__area__container__works-block-img figcaption {
+  text-align: center;
+}
+.page__area__container__works-block-btn a {
+  border: 1px solid #000;
+}
+.page__footer {
+  border-top: 1px solid #ccc;
+  padding: 15px;
+  clear: both;
+  margin-top: 20px;
+  background-color: #fff;
+}
+.page__footer-container {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

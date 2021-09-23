@@ -1,13 +1,13 @@
 <?php get_header(); ?>
 
-<div class="top-header text-center">
+<div class="page__area-header">
 	<?php if ( has_post_thumbnail() ) : ?>
-		<div class="single-image">
+		<div class="page__areasingle-image">
 			<?php the_post_thumbnail( 'full' ); ?>
 		</div>
 	<?php endif; ?>
-	<header class="header-title container">
-		<h1 class="page-header">                                
+	<header class="page__area-header-container">
+		<h1 class="page__area-header-text">                                
 			<?php the_title(); ?>                          
 		</h1>
 		<?php do_action( 'bulk_after_page_title' ); ?>
