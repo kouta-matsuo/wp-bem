@@ -1,0 +1,22 @@
+/*
+
+
+Theme Name: bulk-child
+Template: bulk
+
+*/
+
+/* The bootstrap.css file is auto-enqueued in functions.php */
+
+/* WordPress Core */
+
+.home__main-menu {
+    position: relative;
+}
+.navbar-abc {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	top: 0;
+	background-color: #000 !important; 
+}
