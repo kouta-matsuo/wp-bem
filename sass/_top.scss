@@ -68,10 +68,44 @@
             font-size: 16px;
         }
     }
-    
-    &__menu-lists li a:hover {
+    // 現在のリンクとホバーした時の色を指定
+    &__menu-lists li a:hover,
+    &__menu-lists li.active a{
         @media(min-width: 768px) {
             color: $blue;
+        }
+    }
+    //liがホバーされた時の下に出る線の指定
+    &__menu-lists li a::after {
+        @media(min-width: 768px) {
+        content: '';
+        //絶対配置で線の位置を決める
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        //線の形状
+        width: 100%;
+        height: 2px;
+        background: $yellow;
+        //アニメーションの指定
+        transition: all .3s;
+        transform: scale(0.1);
+        transform-origin: center top;
+        }
+    }
+    
+    //現在地とhoverの設定
+    &__menu-lists li.active a::after,
+    &__menu-lists li a:hover:after {
+        @media(min-width: 768px) {
+            transform: scale(1,1);
+        }
+    }
+    
+    &__menu-lists li a {
+        @media(min-width: 768px) {
+            //ホバーした時の線の基準にする
+            position: relative;
         }
     }
     
@@ -82,7 +116,7 @@
         }
     }
     
-   
+    
     
 
     &__area-header {
@@ -122,6 +156,10 @@
 
 &__area__container__skil-block-img figcaption {
     text-align: center;
+}
+
+&__area__container__skil-block-img img {
+    width: 100%;
 }
 
 &__area__container__works-block-img figcaption {

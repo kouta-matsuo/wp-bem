@@ -90,8 +90,32 @@ body {
   }
 }
 @media (min-width: 768px) {
-  .page__menu-lists li a:hover {
+  .page__menu-lists li a:hover, .page__menu-lists li.active a {
     color: #add9e0;
+  }
+}
+@media (min-width: 768px) {
+  .page__menu-lists li a::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fcb900;
+    transition: all 0.3s;
+    transform: scale(0.1);
+    transform-origin: center top;
+  }
+}
+@media (min-width: 768px) {
+  .page__menu-lists li.active a::after, .page__menu-lists li a:hover:after {
+    transform: scale(1, 1);
+  }
+}
+@media (min-width: 768px) {
+  .page__menu-lists li a {
+    position: relative;
   }
 }
 @media (max-width: 767px) {
@@ -128,6 +152,9 @@ body {
 }
 .page__area__container__skil-block-img figcaption {
   text-align: center;
+}
+.page__area__container__skil-block-img img {
+  width: 100%;
 }
 .page__area__container__works-block-img figcaption {
   text-align: center;
