@@ -1,16 +1,16 @@
 <?php get_header(); ?>
 
-<div class="top-header text-center">
+<div class="page__area-top">
 	<?php if ( has_post_thumbnail() ) : ?>
-		<div class="single-image">
+		<div class="page__area-top-img">
 			<?php the_post_thumbnail( 'full' ); ?>
 		</div>
 	<?php endif; ?>
-	<header class="header-title container">
-		<h1 class="page-header">                                
+	<header class="page__area__header-title">
+		<h1 class="page__area__header-text">                                
 			<?php the_title(); ?>                          
 		</h1>
-		<div class="post-meta">
+		<div class="page__area__header-meta">
 			<?php bulk_time_link(); ?>
 			<?php bulk_posted_on(); ?>
 			<?php bulk_entry_footer(); ?>
