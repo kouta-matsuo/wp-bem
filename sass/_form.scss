@@ -1,0 +1,38 @@
+//フォームのページ
+
+//クラス指定できないため
+.wpcf7 p {
+    text-align: justify;
+    padding-bottom: 30px;
+    @media(min-width: 768px) {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+.page {
+
+    &__area-form-heading {
+        padding-bottom: 30px;
+    }
+
+    &__area-form-text {
+        padding-bottom: 30px;
+    }
+    
+    &__area__form {
+        @media(min-width: 768px) {
+            width: 70%;
+            
+        }
+    }
+
+    &__area__form-btn {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+        border-radius: 20px;
+        background-color: #fcd900;
+    }
+}

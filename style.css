@@ -236,4 +236,34 @@ a, a:hover, a:active, a:focus {
   color: #fff;
 }
 
+.wpcf7 p {
+  text-align: justify;
+  padding-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .wpcf7 p {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.page__area-form-heading {
+  padding-bottom: 30px;
+}
+.page__area-form-text {
+  padding-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .page__area__form {
+    width: 70%;
+  }
+}
+.page__area__form-btn {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 20px;
+  background-color: #fcd900;
+}
+
 /*# sourceMappingURL=style.css.map */
