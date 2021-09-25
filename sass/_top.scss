@@ -64,7 +64,14 @@
             padding: 10px 0 10px 20px;
         }
         @media(min-width: 768px) {
-            padding-right: 20px;
+            padding-right: 30px;
+            font-size: 16px;
+        }
+    }
+    
+    &__menu-lists li a:hover {
+        @media(min-width: 768px) {
+            color: $blue;
         }
     }
     
@@ -111,6 +118,8 @@
     text-align: justify;
 }
 
+
+
 &__area__container__skil-block-img figcaption {
     text-align: center;
 }
@@ -119,7 +128,14 @@
     text-align: center;
 }
 
+&__area__container__works-block-btn a:hover {
+    @media(min-width: 768px) {
+        transform: scale(1.1);
+    }
+}
+
 &__area__container__works-block-btn a {
+    transition: all .5s;
     border: 1px solid #000;
 }
 

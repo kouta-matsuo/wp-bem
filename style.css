@@ -9,6 +9,21 @@ body {
   padding-bottom: 150px;
 }
 
+.fadeUp {
+  animation: fadeUpAnime 2s forwards;
+  opacity: 0;
+}
+
+@keyframes fadeUpAnime {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .page__main-menu {
   position: relative;
 }
@@ -70,7 +85,13 @@ body {
 }
 @media (min-width: 768px) {
   .page__menu-lists li {
-    padding-right: 20px;
+    padding-right: 30px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .page__menu-lists li a:hover {
+    color: #add9e0;
   }
 }
 @media (max-width: 767px) {
@@ -111,7 +132,13 @@ body {
 .page__area__container__works-block-img figcaption {
   text-align: center;
 }
+@media (min-width: 768px) {
+  .page__area__container__works-block-btn a:hover {
+    transform: scale(1.1);
+  }
+}
 .page__area__container__works-block-btn a {
+  transition: all 0.5s;
   border: 1px solid #000;
 }
 .page__footer {
