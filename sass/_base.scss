@@ -8,3 +8,11 @@ a, a:hover, a:active, a:focus{
     text-decoration: none;
 }
 
+//フッターをコンテンツが少ない時も一番したに固定する
+body {
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 150px;
+}
+

@@ -2,6 +2,13 @@ a, a:hover, a:active, a:focus {
   text-decoration: none;
 }
 
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+  padding-bottom: 150px;
+}
+
 .page__main-menu {
   position: relative;
 }
@@ -113,6 +120,10 @@ a, a:hover, a:active, a:focus {
   clear: both;
   margin-top: 20px;
   background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  margin: 0;
 }
 .page__footer-container {
   text-align: center;
