@@ -189,6 +189,7 @@ a, a:hover, a:active, a:focus {
   min-height: 450px;
   background-color: #3c3c3c;
   text-align: center;
+  top: 70px;
 }
 .page__area-top-img {
   max-height: 450px;
