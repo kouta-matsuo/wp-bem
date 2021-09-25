@@ -236,13 +236,19 @@ a, a:hover, a:active, a:focus {
   color: #fff;
 }
 
+@media (min-width: 768px) {
+  .wpcf7 {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+
 .wpcf7 p {
   text-align: justify;
   padding-bottom: 30px;
 }
 @media (min-width: 768px) {
   .wpcf7 p {
-    width: 80%;
     margin: 0 auto;
   }
 }
@@ -252,11 +258,6 @@ a, a:hover, a:active, a:focus {
 }
 .page__area-form-text {
   padding-bottom: 30px;
-}
-@media (min-width: 768px) {
-  .page__area__form {
-    width: 70%;
-  }
 }
 .page__area__form-btn {
   width: 70%;
