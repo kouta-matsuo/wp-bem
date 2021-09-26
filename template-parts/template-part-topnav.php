@@ -1,7 +1,7 @@
 <div class="page__main-menu">
     <nav id="site-navigation" class="page__nav">     
         <div class="page__nav-container">   
-            <div class="page__navbar-header">
+            <div class="page__nav-header">
                 <?php if (has_nav_menu('main_menu')) : ?>
                     <div id="main-menu-panel" class="open-panel page__nav-open" data-panel="main-menu-panel">
                         <span class="page__nav-span page__nav-span--1"></span>

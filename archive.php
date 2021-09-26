@@ -1,10 +1,10 @@
 <?php get_header(); ?> 
 
 <?php if ( have_posts() ) : ?>
-	<header class="archive-page-header container-fluid text-center">
-		<div class="container">
+	<header class="page__archive-header">
+		<div class="page__archive-header-container">
 			<?php
-			the_archive_title( '<h1 class="page-title">', '</h1>' );
+			the_archive_title( '<h1 class="page__archive-header-text">', '</h1>' );
 			the_archive_description( '<div class="taxonomy-description">', '</div>' );
 			?>
 		</div>

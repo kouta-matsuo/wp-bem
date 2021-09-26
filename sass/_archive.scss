@@ -1,0 +1,10 @@
+.page {
+    &__archive-header {
+        background-color: $gray;
+        color: #000;
+        padding: 100px 20px 120px;
+        position: relative;
+        top: 70px;
+        text-align: center;
+    }
+}
