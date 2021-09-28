@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 <?php get_template_part( 'template-parts/template-part', 'content' ); ?>
 <!-- start content container -->
-<div class="row">
+<div class="row bulk__container">
 
-    <div class="col-md-<?php bulk_main_content_width_columns(); ?>">
+    <div class="col-md-<?php bulk_main_content_width_columns(); ?> bulk__container-box">
 
 		<?php
 		if ( have_posts() ) :

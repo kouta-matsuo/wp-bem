@@ -8,7 +8,7 @@
 </div>
 <footer id="colophon" class="footer row">
 	<div class="footer__container">
-    <small class="ooter__container-copy">©️Kouta.2021</small>
+    <small class="footer__container-copy">©️Kouta.2021</small>
 	</div>	
 </footer>
 <!-- end main container -->
