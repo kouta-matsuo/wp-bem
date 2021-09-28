@@ -6,9 +6,9 @@
 	</div>		
 <?php } ?> 
 </div>
-<footer id="colophon" class="page__footer row">
-	<div class="page__footer-container">
-    <small class="page__footer-container-copy">©️Kouta.2021</small>
+<footer id="colophon" class="footer row">
+	<div class="footer__container">
+    <small class="ooter__container-copy">©️Kouta.2021</small>
 	</div>	
 </footer>
 <!-- end main container -->

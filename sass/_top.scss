@@ -122,62 +122,64 @@
     &__area-header {
         display: none;
     }
+}
 
-    &__bulk-container {
+    .bulk {
         background-color: #fff;
         width: 90%;
         margin: 120px auto 0;
         padding: 20px 20px 0;
         text-align: center;
-    }
+    
 
-    &__area__container-heading {
+    &__container-heading {
         font-size: 40px;
         padding-top: 50px;
         display: inline-block;
         border-bottom: 3px dotted $blue;
     }
     
-    &__area__container__block {
+    &__container__block {
         padding-top: 30px;
     }
 
-&__area__container__plofile-block figure {
+&__container__plofile-block figure {
     @media(max-width: 767px) {
         padding-bottom: 20px;
     }
 }
 
-&__area__container__plofile-block {
+&__container__plofile-block {
     text-align: justify;
 }
 
 
 
-&__area__container__skil-block-img figcaption {
+&__container__skil-block-img figcaption {
     text-align: center;
 }
 
-&__area__container__skil-block-img img {
+&__container__skil-block-img img {
     width: 100%;
 }
 
-&__area__container__works-block-img figcaption {
+&__container__works-block-img figcaption {
     text-align: center;
 }
 
-&__area__container__works-block-btn a:hover {
+&__container__works-block-btn a:hover {
     @media(min-width: 768px) {
         transform: scale(1.1);
     }
 }
 
-&__area__container__works-block-btn a {
+&__container__works-block-btn a {
     transition: all .5s;
     border: 1px solid #000;
 }
+}
 
-&__footer {
+.footer {
     border-top: 1px solid #ccc;
     padding: 15px;
     clear: both;
@@ -187,10 +189,10 @@
     bottom: 0;
     width: 100vw;
     margin: 0;
-}
 
-&__footer-container {
+
+&__container {
     text-align: center;
 }
-
 }
+

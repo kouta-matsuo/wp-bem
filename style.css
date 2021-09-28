@@ -126,49 +126,51 @@ body {
 .page__area-header {
   display: none;
 }
-.page__bulk-container {
+
+.bulk {
   background-color: #fff;
   width: 90%;
   margin: 120px auto 0;
   padding: 20px 20px 0;
   text-align: center;
 }
-.page__area__container-heading {
+.bulk__container-heading {
   font-size: 40px;
   padding-top: 50px;
   display: inline-block;
   border-bottom: 3px dotted #add9e0;
 }
-.page__area__container__block {
+.bulk__container__block {
   padding-top: 30px;
 }
 @media (max-width: 767px) {
-  .page__area__container__plofile-block figure {
+  .bulk__container__plofile-block figure {
     padding-bottom: 20px;
   }
 }
-.page__area__container__plofile-block {
+.bulk__container__plofile-block {
   text-align: justify;
 }
-.page__area__container__skil-block-img figcaption {
+.bulk__container__skil-block-img figcaption {
   text-align: center;
 }
-.page__area__container__skil-block-img img {
+.bulk__container__skil-block-img img {
   width: 100%;
 }
-.page__area__container__works-block-img figcaption {
+.bulk__container__works-block-img figcaption {
   text-align: center;
 }
 @media (min-width: 768px) {
-  .page__area__container__works-block-btn a:hover {
+  .bulk__container__works-block-btn a:hover {
     transform: scale(1.1);
   }
 }
-.page__area__container__works-block-btn a {
+.bulk__container__works-block-btn a {
   transition: all 0.5s;
   border: 1px solid #000;
 }
-.page__footer {
+
+.footer {
   border-top: 1px solid #ccc;
   padding: 15px;
   clear: both;
@@ -179,7 +181,7 @@ body {
   width: 100vw;
   margin: 0;
 }
-.page__footer-container {
+.footer__container {
   text-align: center;
 }
 
@@ -319,13 +321,13 @@ body {
   }
 }
 
-.page__area-form-heading {
+.bulk__container-form-heading {
   padding-bottom: 30px;
 }
-.page__area-form-text {
+.bulk__container-form-text {
   padding-bottom: 30px;
 }
-.page__area__form-btn {
+.bulk__form-btn {
   width: 70%;
   margin: 0 auto;
   display: block;

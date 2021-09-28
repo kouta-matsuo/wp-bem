@@ -1,10 +1,10 @@
 <!-- start content container -->
-<div class="row page__area__container">   
-	<article class="col-md-<?php bulk_main_content_width_columns(); ?> page__area__container-box">        
+<div class="row bulk__container">   
+	<article class="col-md-<?php bulk_main_content_width_columns(); ?> bulk__container-box">        
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>                          
 				<div <?php post_class(); ?>>
-					<div class="page__area__container-box2">                
-						<div class="page__area__container-box3">                              
+					<div class="bulk__container-box2">                
+						<div class="bulk__container-box3">                              
 							<?php the_content(); ?>                            
 						</div>                               
 						<?php wp_link_pages(); ?>                                                                                     
